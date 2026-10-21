@@ -1,6 +1,7 @@
-__pycache__/
-*.pyc
 .exchange-key
+keys.json
 jobs/
 journal/
 patterns/local/
+__pycache__/
+*.pyc

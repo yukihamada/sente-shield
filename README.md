@@ -52,7 +52,7 @@ python3 sente-shield.py run "echo hello"
 ### 参加方法
 
 1. **キーをリクエスト**
-   - 連絡先: 牧（@maki）までご連絡ください
+   - 連絡先: 濱田優貴（@yukihamada）までご連絡ください
    - 審査後、交換キーが発行されます
 
 2. **キーの役割**
@@ -71,7 +71,7 @@ python3 sente-shield.py run "echo hello"
 ### 共有の流れ
 
 ```sh
-# 1. キーを取得（牧から発行してもらう）
+# 1. キーを取得（@yukihamada から発行してもらう）
 # 2. パターンを投稿
 python3 sente-shield.py share patterns/local/2026-10-21-001.json
 

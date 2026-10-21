@@ -40,7 +40,7 @@ def keygen(parent_key=None, admin=False):
     if keys_data["admin_key"] is None:
         if not admin:
             print("初回発行は管理者権限が必要です。")
-            print("牧（@maki）まで連絡して管理者キーを取得してください。")
+            print("濱田優貴（@yukihamada）まで連絡して管理者キーを取得してください。")
             return
         admin_key = secrets.token_urlsafe(32)
         keys_data["admin_key"] = hashlib.sha256(admin_key.encode()).hexdigest()
